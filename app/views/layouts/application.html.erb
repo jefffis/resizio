@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>resiz.io</title>
+	<%= stylesheet_link_tag "application", :media => "all" %>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:700,300' rel='stylesheet' type='text/css' />
+	<link href="//get.pictos.cc/fonts/397/14" rel="stylesheet" type="text/css" />
+	<%= javascript_include_tag "jquery", "app" %>
+	<%= csrf_meta_tags %>
+</head>
+<body>
+	<section>
+		<h1>
+			<span aria-hidden="true" data-icon="i"></span>
+			resiz<em>.io</em>
+		</h1>
+		<%= yield %>
+		<a href="" class="meta" id="meta">About resiz.io</a>
+		<div class="aboutsss" id="aboutsss">
+			<div>
+				<div>
+					<h2>
+						<span aria-hidden="true" data-icon="f"></span>
+						A bit about resiz.io:
+					</h2>
+					<p>I&rsquo;ve run into many instances whilst in the web world where clients don&rsquo;t have access to Photoshop, or anything similar, so they can&rsquo;t resize images easily, or at all. So, I wanted to build a super-simple app that does just that, and that&rsquo;s <strong>fun, sleek, and, most of all, fast</strong>. You can use JPEGs, PNGs, GIFs and TIFFs with this. <em>Enjoy!</em></p>
+					<hr />
+					<p>Built with Ruby on Rails using Paperclip, HTML, CSS &amp; a bit of JavaScript. Made by <a href="http://twitter.com/jefffis" target="_blank">@jefffis</a>, and tutelage provided by <a href="http://justinwindholtz.com" target="_blank">Wustin</a>.</p>
+					<span aria-hidden="true" data-icon="x"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
