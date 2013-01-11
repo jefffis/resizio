@@ -5,10 +5,9 @@ set :repository,  'git@github.com:jefffis/resizio.git'
 
 set :scm, 'git'
 set :scm_dir, 'jefffis'
-
 set :branch, 'master'
-
 set :deploy_host, 'gunray.browsermedia.com'
+set :deploy_to, "/var/www/vhosts/#{application}"
 
 #role :web, "gunray.browsermedia.com"                          # Your HTTP server, Apache/etc
 #role :app, "gunray.browsermedia.com"                          # This may be the same as your `Web` server
@@ -16,7 +15,6 @@ set :deploy_host, 'gunray.browsermedia.com'
 #role :db,  "your slave db-server here"
 
 ssh_options[:forward_agent] = true
-
 set :keep_releases, 5
 
 #task :link_shared_directories do
