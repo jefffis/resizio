@@ -7,7 +7,9 @@ set :scm, 'git'
 set :scm_dir, 'jefffis'
 set :branch, 'master'
 set :deploy_host, 'gunray.browsermedia.com'
-set :deploy_to, "/var/www/vhosts/#{application}"
+set :deploy_to, '/var/www/vhosts/#{application}'
+role :app, 'gunray.browsermedia.com'
+role :web, 'gunray.browsermedia.com'
 
 #role :web, "gunray.browsermedia.com"                          # Your HTTP server, Apache/etc
 #role :app, "gunray.browsermedia.com"                          # This may be the same as your `Web` server
