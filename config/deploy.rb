@@ -7,7 +7,7 @@ set :scm, 'git'
 set :scm_dir, 'jefffis'
 set :branch, 'master'
 set :deploy_host, 'gunray.browsermedia.com'
-#set :deploy_to, '/var/www/vhosts/#{application}'
+set :deploy_to, '/var/www/vhosts/resizio'
 role :app, 'gunray.browsermedia.com'
 role :web, 'gunray.browsermedia.com'
 
