@@ -23,7 +23,7 @@ set :keep_releases, 5
 #	run "ln -s #{shared_path}/uploads #{release_path}/public/uploads"
 #end
 
-after 'deploy:update_code', :link_shared_directories, 'deploy:cleanup'
+#after 'deploy:update_code', :link_shared_directories, 'deploy:cleanup'
 
 # Automatically runs bundle install on the server. Puts gems into the shared directory.
 set :bundle_cmd, '/opt/ruby-ee/bin/bundle'
