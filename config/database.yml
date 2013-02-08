@@ -31,12 +31,14 @@ test:
   password:
   socket: /tmp/mysql.sock
 
+#stole codegrabs mysql db info
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: image_upload_production
+  database: html_codes_production
   pool: 5
-  username: root
-  password:
+  username: codegrab
+  password: WelOLQOk
   socket: /tmp/mysql.sock
+  host: rails-db3.browsermedia.com
