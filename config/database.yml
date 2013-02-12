@@ -40,5 +40,4 @@ production:
   pool: 5
   username: codegrab
   password: WelOLQOk
-  #socket: /tmp/mysql.sock
   host: rails-db3.browsermedia.com
