@@ -1,4 +1,5 @@
 $(function(){
+	var html = $('html');
 	var img = $('img');
 	var div = $('#result');
 	var link = $('a');
@@ -30,6 +31,17 @@ $(function(){
 	var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
 	var is_safari = navigator.userAgent.indexOf("Safari") > -1;
 	var is_Opera = navigator.userAgent.indexOf("Presto") > -1;
+	var is_iPhone = navigator.userAgent.indexOf("iPhone") > -1;
+	var is_iPad = navigator.userAgent.indexOf("iPad") > -1;
+	var is_iPod = navigator.userAgent.indexOf("iPod") > -1;
+
+	/*function isMobileSafari() {
+	    return navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+	}*/
+
+	if ((is_iPhone)||(is_iPad)||(is_iPod)) {
+		html.addClass('m');
+	}
 
 	if (is_chrome){
 		//nada

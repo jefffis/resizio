@@ -247,6 +247,17 @@ input[type=submit] {
 input[type=file], .error {
 	display:none;
 }
+
+.m input[type=file] {
+	display:block;
+	width:100%;
+	background:red;
+	text-align:center;
+}
+.m .upload_image_choose span {
+	display:none;
+}
+
 .error span {
 	font-size:150%;
 	position:relative;
