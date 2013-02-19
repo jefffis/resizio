@@ -10,6 +10,19 @@
 	<link href="//get.pictos.cc/fonts/397/14" rel="stylesheet" type="text/css" />
 	<%= javascript_include_tag "jquery", "app" %>
 	<%= csrf_meta_tags %>
+	<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-38631108-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+	</script>
 </head>
 <body>
 	<section>
@@ -28,7 +41,7 @@
 					</h2>
 					<p>I&rsquo;ve run into many instances whilst in the web world where clients don&rsquo;t have access to Photoshop, or anything similar, so they can&rsquo;t resize images easily, or at all. So, I wanted to build a super-simple app that does just that, and that&rsquo;s <strong>fun, sleek, and, most of all, fast</strong>. You can use JPEGs, PNGs, GIFs and TIFFs with this. <em>Enjoy!</em></p>
 					<hr />
-					<p>Built with Ruby on Rails using Paperclip, HTML, CSS &amp; a bit of JavaScript. Made by <a href="http://twitter.com/jefffis" target="_blank">@jefffis</a>, and tutelage provided by <a href="http://justinwindholtz.com" target="_blank">Wustin</a>.</p>
+					<p>Built with Ruby on Rails using Paperclip, HTML, CSS &amp; a bit of JavaScript. Made by <a href="http://twitter.com/jefffis" target="_blank">@jefffis</a>, and tutelage provided by <a href="http://justinwindholtz.com" target="_blank">Wustin</a>. Any feedback you have, <a href="mailto:iam@jefff.co">I&rsquo;d love to hear it!</a></p>
 					<span aria-hidden="true" data-icon="x"></span>
 				</div>
 			</div>
