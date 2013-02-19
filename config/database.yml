@@ -40,4 +40,4 @@ production:
   pool: 5
   username: codegrab
   password: WelOLQOk
-  host: rails-db3.browsermedia.com
+  host: rails-db3
