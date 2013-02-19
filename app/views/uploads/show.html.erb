@@ -2,7 +2,25 @@
 max_width = @upload.max_width
 max_height = @upload.max_height
 image_path = @upload.image.path("#{max_width}x#{max_height}")
+uploaded_on = @upload.created_at.to_datetime
+now_date = Time.now
+time_dif = distance_of_time_in_words(now_date - uploaded_on).split(' ')
+time_diff_nums = time_dif[0].to_i
+time_diff_text = time_dif[1]
 %>
+<% if time_diff_nums > 30 && time_diff_text == 'minutes' %>
+<div id="result">
+	<h1>D&rsquo;oh; we deleted that photo!</h1>
+	<p>In order to save precious bytes for other peeps, <strong>we had to derezz that file.</strong></p>
+	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
+</div>
+<% elsif time_diff_text == 'days' %>
+<div id="result">
+	<h1>D&rsquo;oh; we deleted that photo!</h1>
+	<p>In order to save precious bytes for other peeps, <strong>we had to derezz that file.</strong></p>
+	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
+</div>
+<% else %>
 <div id="result">
 	<figure>
 		<%= image_tag @upload.dynamic_attachment_url("#{max_width}x#{max_height}") %>
@@ -31,3 +49,4 @@ $(function(){
 	width.text(img_width);
 });
 </script>
+<% end %>

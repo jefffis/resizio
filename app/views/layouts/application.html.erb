@@ -10,6 +10,10 @@
 	<link href="//get.pictos.cc/fonts/397/14" rel="stylesheet" type="text/css" />
 	<%= javascript_include_tag "jquery", "app" %>
 	<%= csrf_meta_tags %>
+	<%
+	url = request.url.split(':')
+	if url[1] != '//localhost'
+	%>
 	<script type="text/javascript">
 
 	var _gaq = _gaq || [];
@@ -23,6 +27,7 @@
 	})();
 
 	</script>
+	<% end %>
 </head>
 <body>
 	<section>

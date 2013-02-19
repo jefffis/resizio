@@ -115,6 +115,14 @@ $(function(){
 		submit.prop('disabled',false).removeClass('disabled');
 		submit.parent().removeClass('disabled');
 		upload_max_width.focus();
+
+		if($this.val()==''){
+			//alert('ffe');
+			div.hide();
+			span.text('Choose an image to upload');
+			numnums.hide();
+			submit.prop('disabled',true).addClass('disabled');
+		}
 		
 	});
 	
