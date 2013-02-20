@@ -1,5 +1,7 @@
+<% ua = request.env['HTTP_USER_AGENT'].downcase %>
+<%#= ua %>
 <!DOCTYPE html>
-<html>
+<html<% if ua.index('mobile') || ua.index('webos') %> class="m"<% end %>>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
@@ -36,7 +38,7 @@
 			resiz<em>.io</em>
 		</h1>
 		<%= yield %>
-		<a href="" class="meta" id="meta">About resiz.io</a>
+		<a href="" class="meta" id="meta">about</a>
 		<div class="aboutsss" id="aboutsss">
 			<div>
 				<div>

@@ -23,7 +23,7 @@
 }
 html {
 	letter-spacing:-.03em;
-	padding:0 50px 50px;
+	padding:0 0 50px;
 	color:#666;
 	text-align:center;
 	background: white;
@@ -189,6 +189,9 @@ form, fieldset {
 	border:0;
 	padding:0;
 }
+form {
+	padding:0 50px;
+}
 fieldset {
 	padding:0 0 .5em;
 }
@@ -245,16 +248,6 @@ input[type=submit] {
 	margin:0;
 }
 input[type=file], .error {
-	display:none;
-}
-
-.m input[type=file] {
-	display:block;
-	width:100%;
-	background:red;
-	text-align:center;
-}
-.m .upload_image_choose span {
 	display:none;
 }
 
@@ -335,7 +328,7 @@ a.meta {
 	color:#999;
 	text-shadow:none;
 	/*opacity:.5;*/
-	font-size:80%;
+	font-size:100%;
 	-webkit-transition:all .2s ease-out;
 	-moz-transition:all .2s ease-out;
 	transition:all .2s ease-out;
@@ -347,7 +340,7 @@ a.meta:hover {
 .aboutsss {
 	position:fixed;
 	z-index:11;
-	top:-100%;
+	top:-200%;
 	left:0;
 	height:100%;
 	width:100%;
@@ -372,12 +365,12 @@ a.meta:hover {
 	height:100%;
 	width:100%;
 	position:relative;
-	padding:0 50px;
+	padding:0 20px;
 }
 .aboutsss span {
 	position: absolute;
-	top:2em;
-	right:2em;
+	top:1em;
+	right:1em;
 	font-size:200%;
 	cursor:pointer;
 	opacity:.5;
@@ -413,8 +406,42 @@ a.meta:hover {
 	padding:0;
 	background:none;
 	box-shadow:none;
-	color:#307CA3;
+	color:#3fa6d3;
 	text-shadow:none;
+}
+.aboutsss a:hover, .aboutsss a:active {
+	color:#307CA3;
+}
+.m-details {
+	display:none;
+}
+
+/**********
+mobile hide
+**********/
+.m form {
+	display:none;
+}
+.m .m-details {
+	display:block;
+}
+.m-details strong {
+	color:#3fa6d3;
+}
+.m-details h1 {
+	margin-bottom:.5em;
+}
+/**********
+iOS 5/6 support
+**********/
+.m.iOS form {
+	display:block;
+}
+.m.iOS .m-details {
+	display:none;
+}
+.m.iOS input[type=file] {
+	display:block;
 }
 
 @media screen and (max-width:600px) {

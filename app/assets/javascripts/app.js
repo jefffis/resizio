@@ -31,17 +31,13 @@ $(function(){
 	var is_firefox = navigator.userAgent.indexOf('Firefox') > -1;
 	var is_safari = navigator.userAgent.indexOf("Safari") > -1;
 	var is_Opera = navigator.userAgent.indexOf("Presto") > -1;
-	var is_iPhone = navigator.userAgent.indexOf("iPhone") > -1;
-	var is_iPad = navigator.userAgent.indexOf("iPad") > -1;
-	var is_iPod = navigator.userAgent.indexOf("iPod") > -1;
+	//var is_iPhone = navigator.userAgent.indexOf("iPhone") > -1;
+	//var is_iPad = navigator.userAgent.indexOf("iPad") > -1;
+	//var is_iPod = navigator.userAgent.indexOf("iPod") > -1;
 
-	/*function isMobileSafari() {
-	    return navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+	/*if(upload_image.prop('disabled',true)){
+		html.addClass('iOS');
 	}*/
-
-	if ((is_iPhone)||(is_iPad)||(is_iPod)) {
-		html.addClass('m');
-	}
 
 	if (is_chrome){
 		//nada
@@ -54,6 +50,11 @@ $(function(){
 	}
 	else if (ie7===true) {
 		alert('yargh');
+	}*/
+	/*else if (upload_image.prop('disabled',true)){
+		span.on('click',function(){
+			upload_image.show().focus().click().hide();
+		});	
 	}*/
 	else if (is_safari) {
 		span.on('click',function(){
