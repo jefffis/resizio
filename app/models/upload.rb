@@ -10,7 +10,7 @@ class Upload < ActiveRecord::Base
   attr_accessible :image, :max_width, :max_height
   validates_attachment_presence :image
   
-  has_attached_file :image, :styles => Proc.new { |image| image.instance.styles }
+  has_attached_file :image, :styles => Proc.new { |image| image.instance.styles }, :convert_options => { :all => '-strip -colorspace RGB'}
   #validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif', 'image/pjpeg', 'image/x-png', 'image/jpeg2000', 'image/tiff']
   validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif', 'image/tiff']
 

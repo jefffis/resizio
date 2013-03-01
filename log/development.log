@@ -39538,3 +39538,48 @@ Served asset /app.js - 304 Not Modified (0ms)
 
 Started GET "/assets/load.gif" for 127.0.0.1 at 2013-02-20 09:35:57 -0500
 Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-01 09:23:04 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 293ms (Views: 164.2ms | ActiveRecord: 62.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-01 09:23:05 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-01 09:23:05 -0500
+Served asset /jquery.js - 200 OK (21ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-03-01 09:23:05 -0500
+Served asset /app.js - 200 OK (1ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2013-03-01 09:23:06 -0500
+Served asset /load.gif - 200 OK (35ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2013-03-01 09:23:16 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeZfZQmlUxxCIAHBjJ1adJe4p8XdZbIuI4z2V0IfcPM=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc03b1afb50 @original_filename="tmcrnch-ll.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"tmcrnch-ll.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/RackMultipart20130301-8895-8es6y>>, "max_width"=>"300", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (82.4ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `updated_at`) VALUES ('2013-03-01 14:23:16', 'image/jpeg', 'tmcrnch-ll.jpg', 2768626, '2013-03-01 14:23:16', NULL, 300, '2013-03-01 14:23:16')[0m
+[paperclip] Saving attachments.
+  [1m[35m (132.2ms)[0m  COMMIT
+Redirected to http://localhost:3001/uploads/137
+Completed 302 Found in 554ms (ActiveRecord: 214.7ms)
+
+
+Started GET "/uploads/137" for 127.0.0.1 at 2013-03-01 09:23:17 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"137"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`id` = 137 LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/tmcrnch-ll20130301-8895-1mu9y92.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/tmcrnch-ll20130301-8895-1mu9y92.jpg[0]' -resize "300" -strip -colorspace RGB '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/tmcrnch-ll20130301-8895-1mu9y9220130301-8895-pfb2wn'
+  Rendered uploads/show.html.erb within layouts/application (4018.1ms)
+Completed 200 OK in 4045ms (Views: 4044.0ms | ActiveRecord: 0.3ms)
