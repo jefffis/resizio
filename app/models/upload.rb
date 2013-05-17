@@ -7,7 +7,17 @@ require 'uri'
 
 class Upload < ActiveRecord::Base
 
-  attr_accessible :image, :max_width, :max_height
+  before_create :generate_unique_id
+  
+  def generate_unique_id
+    self.unique_id = SecureRandom.urlsafe_base64(6, padding=false)
+  end
+
+  def to_param
+    self.unique_id
+  end
+
+  attr_accessible :image, :max_width, :max_height, :unique_id
   validates_attachment_presence :image
   
   has_attached_file :image, :styles => Proc.new { |image| image.instance.styles }, :convert_options => { :all => '-strip -colorspace RGB'}

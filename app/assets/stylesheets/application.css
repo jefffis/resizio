@@ -85,7 +85,7 @@ h1 span {
 }
 img {
 	display:block;
-	margin:0 auto.75em;
+	margin:0 auto .75em;
 	max-width:100%;
 }
 figure {

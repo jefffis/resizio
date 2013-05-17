@@ -24,11 +24,11 @@ class UploadsController < ApplicationController
 	end
 	
 	def show
-		@upload = Upload.find(params[:id])
+		@upload = Upload.find_by_unique_id(params[:id])
 	end
 	
 	def thumbnail
-	  @image = Upload.find(params[:id])
+	  @image = Upload.find_by_unique_id(params[:id])
 	  redirect_to @image.dynamic_attachment_url("#{params['width']}x#{params['height']}>")
 	end
 

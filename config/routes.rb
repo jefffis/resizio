@@ -1,5 +1,15 @@
 ImageUpload::Application.routes.draw do
 
+  get "errors/error_404"
+
+  get "errors/error_500"
+
+  #unless Rails.application.config.consider_all_requests_local
+    #match '*not_found', to: 'errors#error_404'
+  #end
+
+  match "/404", :to => "errors#error_404"
+
   resources :uploads
   resources :images do
     member do

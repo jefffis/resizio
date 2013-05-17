@@ -40660,3 +40660,423 @@ Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
 Started GET "/assets/ie.css" for 127.0.0.1 at 2013-03-01 10:56:43 -0500
 Compiled ie.css  (0ms)  (pid 9481)
 Served asset /ie.css - 200 OK (26ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-17 08:38:13 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 496ms (Views: 422.9ms | ActiveRecord: 31.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:38:14 -0400
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:38:14 -0400
+Served asset /app.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:38:14 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2013-05-17 08:38:14 -0400
+Served asset /load.gif - 200 OK (16ms)
+
+
+Started GET "/uploads/100" for 127.0.0.1 at 2013-05-17 08:38:20 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"100"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`id` = 100 LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (122.5ms)
+Completed 500 Internal Server Error in 149ms
+
+ActionView::Template::Error (No such file or directory - /Users/jeffdoan/Projects/personal/resizio/public/system/uploads/images/000/000/100/original/widescreen-l.jpg):
+    28: <% else %>
+    29: <div id="result">
+    30: 	<figure>
+    31: 		<%= image_tag @upload.dynamic_attachment_url("#{max_width}x#{max_height}") %>
+    32: 		<figcaption>
+    33: 			<% if @upload.max_width && @upload.max_height %>
+    34: 			<span id="width"></span> pixels wide by <span id="height"></span> pixels tall
+  app/models/upload.rb:32:in `dynamic_attachment_url'
+  app/views/uploads/show.html.erb:31:in `_app_views_uploads_show_html_erb___2414307769869163932_70360200506980'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-17 08:38:30 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2013-05-17 08:38:41 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeZfZQmlUxxCIAHBjJ1adJe4p8XdZbIuI4z2V0IfcPM=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007ffc034a9f28 @original_filename="Screen Shot 2013-05-17 at 8.38.34 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2013-05-17 at 8.38.34 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/RackMultipart20130517-66722-1kpfkl4>>, "max_width"=>"150", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `updated_at`) VALUES ('2013-05-17 12:38:41', 'image/png', 'Screen_Shot_2013-05-17_at_8.38.34_AM.png', 369861, '2013-05-17 12:38:41', NULL, 150, '2013-05-17 12:38:41')[0m
+[paperclip] Saving attachments.
+  [1m[35m (6.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/138
+Completed 302 Found in 51ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/uploads/138" for 127.0.0.1 at 2013-05-17 08:38:41 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"138"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`id` = 138 LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-66722-ois97x.png[0]'
+[32mCommand[0m :: convert '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-66722-ois97x.png[0]' -resize "150" -strip -colorspace RGB '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-66722-ois97x20130517-66722-101s7ei'
+  Rendered uploads/show.html.erb within layouts/application (1064.8ms)
+Completed 200 OK in 1069ms (Views: 1067.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/137" for 127.0.0.1 at 2013-05-17 08:38:46 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"137"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`id` = 137 LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/uploads/134" for 127.0.0.1 at 2013-05-17 08:38:49 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"134"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`id` = 134 LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (47.8ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (2.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUploads (20121130203846)
+Migrating to AddImageDimension (20121203130518)
+Migrating to AddUniqueId (20130517123935)
+  [1m[35m (424.8ms)[0m  ALTER TABLE `uploads` ADD `unique_id` varchar(255)
+  [1m[36m (8.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20130517123935')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-17 08:41:12 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 99ms (Views: 20.0ms | ActiveRecord: 32.1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2013-05-17 08:41:20 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeZfZQmlUxxCIAHBjJ1adJe4p8XdZbIuI4z2V0IfcPM=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fdd66397a38 @original_filename="Screen Shot 2013-05-17 at 8.38.34 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2013-05-17 at 8.38.34 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/RackMultipart20130517-66842-1w132fm>>, "max_width"=>"200", "max_height"=>"200"}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 5ms
+
+NameError (undefined local variable or method `generate_unique_string' for #<Upload:0x007fdd66093030>):
+  app/controllers/uploads_controller.rb:15:in `create'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-17 08:41:38 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 67ms (Views: 20.7ms | ActiveRecord: 3.0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2013-05-17 08:41:43 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeZfZQmlUxxCIAHBjJ1adJe4p8XdZbIuI4z2V0IfcPM=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f7f95a236b0 @original_filename="Screen Shot 2013-05-17 at 8.38.34 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2013-05-17 at 8.38.34 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/RackMultipart20130517-66857-1ic9x9b>>, "max_width"=>"200", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `generate_unique_string' for #<Upload:0x007f7f95a5d018>):
+  app/controllers/uploads_controller.rb:15:in `create'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-17 08:42:05 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 70ms (Views: 19.3ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:42:06 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:42:06 -0400
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:42:06 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2013-05-17 08:42:06 -0400
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2013-05-17 08:42:11 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeZfZQmlUxxCIAHBjJ1adJe4p8XdZbIuI4z2V0IfcPM=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fb04c1f16f8 @original_filename="Screen Shot 2013-05-17 at 8.38.34 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2013-05-17 at 8.38.34 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/RackMultipart20130517-66874-1cwl1w2>>, "max_width"=>"200", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2013-05-17 12:42:11', 'image/png', 'Screen_Shot_2013-05-17_at_8.38.34_AM.png', 369861, '2013-05-17 12:42:11', NULL, 200, 'pCQTRei3', '2013-05-17 12:42:11')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/pCQTRei3
+Completed 302 Found in 19ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/uploads/pCQTRei3" for 127.0.0.1 at 2013-05-17 08:42:11 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"pCQTRei3"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'pCQTRei3' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-66874-1dqefc8.png[0]'
+[32mCommand[0m :: convert '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-66874-1dqefc8.png[0]' -resize "200" -strip -colorspace RGB '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-66874-1dqefc820130517-66874-1fsw1k3'
+  Rendered uploads/show.html.erb within layouts/application (235.6ms)
+Completed 200 OK in 315ms (Views: 239.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:42:11 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:42:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:42:11 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/pCQTRei3" for 127.0.0.1 at 2013-05-17 08:42:53 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"pCQTRei3"}
+  [1m[35mUpload Load (0.5ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'pCQTRei3' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (4.8ms)
+Compiled application.css  (0ms)  (pid 66874)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:42:53 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:42:53 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:42:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/fe" for 127.0.0.1 at 2013-05-17 08:42:56 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"fe"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'fe' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `max_width' for nil:NilClass):
+    1: <%
+    2: max_width = @upload.max_width
+    3: max_height = @upload.max_height
+    4: image_path = @upload.image.path("#{max_width}x#{max_height}")
+    5: uploaded_on = @upload.created_at.to_datetime
+  app/views/uploads/show.html.erb:2:in `_app_views_uploads_show_html_erb__21568604314298707_70197586884600'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/uploads/fe" for 127.0.0.1 at 2013-05-17 08:52:44 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"fe"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'fe' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (undefined method `max_width' for nil:NilClass):
+    1: <%
+    2: max_width = @upload.max_width
+    3: max_height = @upload.max_height
+    4: image_path = @upload.image.path("#{max_width}x#{max_height}")
+    5: uploaded_on = @upload.created_at.to_datetime
+  app/views/uploads/show.html.erb:2:in `_app_views_uploads_show_html_erb__2338150409863283421_70360710427580'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/uploads/pCQTRei3" for 127.0.0.1 at 2013-05-17 08:53:07 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"pCQTRei3"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'pCQTRei3' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 29ms (Views: 19.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:53:07 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:53:07 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:53:07 -0400
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/fefe" for 127.0.0.1 at 2013-05-17 08:53:11 -0400
+
+ActionController::RoutingError (No route matches [GET] "/fefe"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeffdoan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jeffdoan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jeffdoan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/fefe" for 127.0.0.1 at 2013-05-17 08:57:41 -0400
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/fefe"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeffdoan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/jeffdoan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/jeffdoan/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/uploads/fef" for 127.0.0.1 at 2013-05-17 08:57:56 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"fef"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'fef' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (undefined method `max_width' for nil:NilClass):
+    1: <%
+    2: max_width = @upload.max_width
+    3: max_height = @upload.max_height
+    4: image_path = @upload.image.path("#{max_width}x#{max_height}")
+    5: uploaded_on = @upload.created_at.to_datetime
+  app/views/uploads/show.html.erb:2:in `_app_views_uploads_show_html_erb___1564310901621409622_70331857579920'
+
+
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/jeffdoan/.rvm/gems/ruby-1.9.3-p194@image/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-17 08:58:21 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 21ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:58:21 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:58:21 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:58:21 -0400
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2013-05-17 08:58:21 -0400
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2013-05-17 08:58:32 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qeZfZQmlUxxCIAHBjJ1adJe4p8XdZbIuI4z2V0IfcPM=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007feed3944c28 @original_filename="Screen Shot 2013-05-17 at 8.38.34 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2013-05-17 at 8.38.34 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/RackMultipart20130517-67377-wa8x9f>>, "max_width"=>"145", "max_height"=>"121"}, "commit"=>"Groovy. Now resize me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2013-05-17 12:58:32', 'image/png', 'Screen_Shot_2013-05-17_at_8.38.34_AM.png', 369861, '2013-05-17 12:58:32', 121, 145, 'exHJrz7N', '2013-05-17 12:58:32')
+[paperclip] Saving attachments.
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/exHJrz7N
+Completed 302 Found in 49ms (ActiveRecord: 12.4ms)
+
+
+Started GET "/uploads/exHJrz7N" for 127.0.0.1 at 2013-05-17 08:58:32 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"exHJrz7N"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'exHJrz7N' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-67377-a8ey2o.png[0]'
+[32mCommand[0m :: convert '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-67377-a8ey2o.png[0]' -resize "145x121" -strip -colorspace RGB '/var/folders/s5/ndz5mlc54pz3c0kjknfdg_nr0000gn/T/Screen_Shot_2013-05-17_at_8.38.34_AM20130517-67377-a8ey2o20130517-67377-12db8pp'
+  Rendered uploads/show.html.erb within layouts/application (522.0ms)
+Completed 200 OK in 526ms (Views: 525.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-17 08:58:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-17 08:58:32 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:58:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
