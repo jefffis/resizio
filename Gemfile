@@ -28,6 +28,12 @@ gem 'capistrano'
 
 gem 'therubyracer', require: "v8"
 
+group :production do
+  # gems specifically for Heroku go here
+  gem "pg"
+  gem 'aws-sdk'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

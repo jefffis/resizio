@@ -41080,3 +41080,27 @@ Served asset /app.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-17 08:58:32 -0400
 Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-24 12:15:40 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.2ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 484ms (Views: 294.5ms | ActiveRecord: 49.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-24 12:15:41 -0400
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-24 12:15:41 -0400
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2013-05-24 12:15:41 -0400
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2013-05-24 12:15:41 -0400
+Served asset /load.gif - 304 Not Modified (51ms)
