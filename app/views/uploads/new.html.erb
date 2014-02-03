@@ -27,19 +27,22 @@
 	<% end %>
 	<div id="error-vals" class="error">
 		<span aria-hidden="true" data-icon="e"></span>
-		If you don&rsquo;t pick a height or width, you&rsquo;ll get the same image.
+		If you don&rsquo;t pick a height or width, you&rsquo;ll get the same image back.
 	</div>
 	<fieldset class="numnums">
-		<%= label_tag :upload_max_width, 'Choose a max width for your image:' %>
-		<div class="wrap input"><%= u.text_field :max_width, :class => 'nums' %></div>
+		<%= label_tag :upload_max_width, 'Choose a max width or height:' %>
+		<div class="wrap input link">
+			<%= u.text_field :max_width, :class => 'nums', :placeholder => 'Enter a max width' %>
+			<%= u.text_field :max_height, :class => 'nums', :placeholder => 'or a max height' %>
+		</div>
 	</fieldset>
-	<fieldset class="numnums">
-		<%= label_tag :upload_max_height, 'Or, choose a max height:' %>
-		<div class="wrap input"><%= u.text_field :max_height, :class => 'nums' %></div>
-	</fieldset>
+	<!--<fieldset class="numnums">
+		<%#= label_tag :upload_max_height, 'Or, choose a max height:' %>
+		<div class="wrap input"><%#= u.text_field :max_height, :class => 'nums' %></div>
+	</fieldset>-->
 	<fieldset class="numnums">
 		<div class="wrap submit" id="submit-wrap"><%= u.submit 'Groovy. Now resize me!', :class => 'disabled' %></div>
-		<div class="load" id="load">
+		<div class="load wrap submit" id="load">
 			<img src="/assets/load.gif" />
 		</div>
 	</fieldset>

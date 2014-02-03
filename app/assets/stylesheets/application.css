@@ -443,13 +443,21 @@ input[type=text] {
 	color: #404040;
 	border:0;
 	border-radius: 0;
-	padding:.5em;
+	padding: 1em;
 	outline:none;
 	text-align:center;
 	/*color:#666;*/
 	font-weight:bold;
 	width:100%;
-	box-shadow: 0 0 0 5px rgba(0,0,0,0.25);
+	/*box-shadow: 0 0 0 5px rgba(0,0,0,0.25);*/
+	border-radius: 4px 4px 0 0;
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+input[type=text] + input[type=text] {
+	border-radius: 0 0 4px 4px;
+	border-top: 1px solid #ddd;
+	border-bottom: 0;
 }
 /*input {
 	opacity:.5;
@@ -469,9 +477,7 @@ input[type=text] {
 .numnums {
 	display:none;
 }
-input[type=text]:focus {
-	box-shadow: 0 0 0 5px rgba(255,255,0,0.35);
-}
+
 input:hover, input.ok {
 	opacity:1;
 }
@@ -511,13 +517,13 @@ input[type=file], .error {
 }
 .load, input[type=submit].disabled {
 	display:none;
-	background:#efefef;
+	/*background:#efefef;
 	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#efefef), to(#ccc));
 	background:-webkit-linear-gradient(#efefef, #ccc);
 	background:-moz-linear-gradient(#efefef, #ccc);
 	background:-ms-linear-gradient(#efefef, #ccc);
 	background:-o-linear-gradient(#efefef, #ccc);
-	background:linear-gradient(#efefef, #ccc);
+	background:linear-gradient(#efefef, #ccc);*/
 	border:1px solid #ccc;
 	width:100%;
 	margin:0 auto;
@@ -525,6 +531,9 @@ input[type=file], .error {
 }
 .load {
 	margin-top:1em;
+	background: #efefef;
+	border: 0;
+	box-shadow: 0 0 0 5px rgba(0,0,0,0.5);
 }
 .wrap.disabled {
 	padding:0;

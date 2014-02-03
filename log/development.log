@@ -45147,3 +45147,1180 @@ Served asset /app.js - 304 Not Modified (0ms)
 
 Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:32:58 -0500
 Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:41:49 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 91ms (Views: 25.3ms | ActiveRecord: 19.5ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:41:49 -0500
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:41:49 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:41:49 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:41:49 -0500
+Served asset /app.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:42:48 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.2ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:42:48 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:42:48 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:42:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:42:48 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:43:14 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:43:14 -0500
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:43:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:43:14 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:43:14 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:44:08 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:44:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:44:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:44:08 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:44:08 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:44:21 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.2ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:44:21 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:44:21 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:44:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:44:21 -0500
+Served asset /application.css - 200 OK (23ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:44:38 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:44:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:44:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:44:38 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:44:38 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:45:06 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:45:06 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:45:06 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:45:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:45:06 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:45:42 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+ERROR: compiling _app_views_uploads_new_html_erb__3115056486008996553_70225806177440 RAISED /Users/Bingles/Desktop/Work/Projects/github/resizio/app/views/uploads/new.html.erb:33: syntax error, unexpected tSTRING_BEG, expecting ')'
+...( label_tag :upload_max_width 'Choose a max width or height:...
+...                               ^
+Function body:           def _app_views_uploads_new_html_erb__3115056486008996553_70225806177440(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "uploads/new";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;
+
+@output_buffer.append=  form_for (@upload) do |u| @output_buffer.safe_concat('
+');	 if flash[:notice] 
+@output_buffer.safe_concat('	<div class="error shown" id="submitted-error">
+		<span aria-hidden="true" data-icon="e"></span>
+		');@output_buffer.append= ( flash[:notice] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+');	 end 
+@output_buffer.safe_concat('	');@output_buffer.append=  field_set_tag do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('		<div id="error" class="error">
+			<span aria-hidden="true" data-icon="e"></span>
+			Please choose a file y&rsquo;all.
+		</div>
+		<div id="error-file" class="error">
+			<span aria-hidden="true" data-icon="e"></span>
+			Please load a valid image: JPG, JPEG, PNG, TIFF or GIF.
+		</div>
+		<label for="upload_image" id="upload_image_choose" class="upload_image_choose">
+			<span class="submit">
+				<strong>Choose an image to upload</strong>
+			</span>
+			');@output_buffer.append= ( u.file_field :image, :accept => 'image/*' );@output_buffer.safe_concat('
+');
+@output_buffer.safe_concat('			<div id="path" class="path"></div>
+		</label>
+');	 end 
+@output_buffer.safe_concat('	<div id="error-vals" class="error">
+		<span aria-hidden="true" data-icon="e"></span>
+		If you don&rsquo;t pick a height or width, you&rsquo;ll get the same image back.
+	</div>
+	<fieldset class="numnums">
+		');@output_buffer.append= ( label_tag :upload_max_width 'Choose a max width or height:' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		<div class="wrap input link">
+			');@output_buffer.append= ( u.text_field :max_width, :class => 'nums', :placeholder => 'Enter a max width' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			');@output_buffer.append= ( u.text_field :max_height, :class => 'nums', :placeholder => 'or a max height' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		</div>
+	</fieldset>
+	<!--<fieldset class="numnums">
+');
+@output_buffer.safe_concat('		<div class="wrap input">');;@output_buffer.safe_concat('</div>
+	</fieldset>-->
+	<fieldset class="numnums">
+		<div class="wrap submit" id="submit-wrap">');@output_buffer.append= ( u.submit 'Groovy. Now resize me!', :class => 'disabled' );@output_buffer.safe_concat('</div>
+		<div class="load" id="load">
+			<img src="/assets/load.gif" />
+		</div>
+	</fieldset>
+'); end 
+@output_buffer.safe_concat('<div class="m-details">
+	<h1>Aww, phoo&hellip;</h1>
+	<p>It seems you&rsquo;re using a <strong>mobile browser</strong> and we&rsquo;re still working the kinks out with that. Maybe come back and see us on just about any desktop browser?</p>
+	<p><strong>Lots of ❤, resiz.io</strong></p>
+</div>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `module_eval'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/template.rb:297:in `compile'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/template.rb:232:in `compile!'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/template.rb:144:in `block in render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications.rb:125:in `instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/template.rb:143:in `render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:414:in `_run__719898145561090668__process_action__295999603844612975__callbacks'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/notifications.rb:123:in `instrument'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activerecord-3.2.8/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/base.rb:121:in `process'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_controller/metal.rb:246:in `block in action'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/cookies.rb:339:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activerecord-3.2.8/lib/active_record/query_cache.rb:64:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activerecord-3.2.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `_run__1185688320425732242__call__2680456397475161222__callbacks'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/railties-3.2.8/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/railties-3.2.8/lib/rails/rack/logger.rb:16:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/activesupport-3.2.8/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/railties-3.2.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered uploads/new.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (/Users/Bingles/Desktop/Work/Projects/github/resizio/app/views/uploads/new.html.erb:33: syntax error, unexpected tSTRING_BEG, expecting ')'
+...( label_tag :upload_max_width 'Choose a max width or height:...
+...                               ^):
+    30: 		If you don&rsquo;t pick a height or width, you&rsquo;ll get the same image back.
+    31: 	</div>
+    32: 	<fieldset class="numnums">
+    33: 		<%= label_tag :upload_max_width 'Choose a max width or height:' %>
+    34: 		<div class="wrap input link">
+    35: 			<%= u.text_field :max_width, :class => 'nums', :placeholder => 'Enter a max width' %>
+    36: 			<%= u.text_field :max_height, :class => 'nums', :placeholder => 'or a max height' %>
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `module_eval'
+  actionpack (3.2.8) lib/action_view/template.rb:297:in `compile'
+  actionpack (3.2.8) lib/action_view/template.rb:244:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (3.2.8) lib/action_view/template.rb:232:in `compile!'
+  actionpack (3.2.8) lib/action_view/template.rb:144:in `block in render'
+  activesupport (3.2.8) lib/active_support/notifications.rb:125:in `instrument'
+  actionpack (3.2.8) lib/action_view/template.rb:143:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:18:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__719898145561090668__process_action__295999603844612975__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__1185688320425732242__call__2680456397475161222__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Bingles/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:45:46 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:45:46 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:45:46 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:45:46 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:45:46 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:46:16 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:46:16 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:46:16 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:46:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:46:16 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:46:25 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:46:25 -0500
+Served asset /load.gif - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:46:25 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:46:25 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:46:25 -0500
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:46:49 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:46:49 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:46:49 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:46:49 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:46:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:47:19 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.5ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:47:19 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:47:19 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:47:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:47:19 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:48:19 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:48:19 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:48:19 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:48:19 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:48:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:48:42 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:48:42 -0500
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:48:42 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:48:42 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:48:42 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:49:16 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.2ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:49:16 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:49:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:49:16 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:49:16 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:49:45 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:49:45 -0500
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:49:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:49:45 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:49:45 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:50:38 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.5ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.5ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:50:38 -0500
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:50:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:50:38 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:50:38 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:50:52 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:50:52 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:50:52 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:50:52 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:50:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:52:02 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:52:02 -0500
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:52:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:52:02 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:52:02 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:52:11 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:52:11 -0500
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:52:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:52:11 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:52:11 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:52:25 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.0ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:52:25 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:52:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:52:25 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:52:25 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:53:00 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.2ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:53:00 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:53:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:53:00 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:53:00 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:53:39 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (21.2ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:53:39 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:53:39 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:53:39 -0500
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:53:39 -0500
+Served asset /load.gif - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:54:13 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.2ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:54:13 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:54:13 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:54:13 -0500
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:54:13 -0500
+Served asset /load.gif - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:54:31 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:54:31 -0500
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:54:31 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:54:31 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:54:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:54:55 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.0ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:54:55 -0500
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:54:55 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:54:55 -0500
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:54:56 -0500
+Served asset /load.gif - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:55:19 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:55:19 -0500
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:55:19 -0500
+Served asset /load.gif - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:55:19 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:55:19 -0500
+Served asset /app.js - 200 OK (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 15:55:33 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fbd6bd414a0 @original_filename="Screen Shot 2014-02-03 at 2.45.41 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2014-02-03 at 2.45.41 PM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-97070-13n9f2g>>, "max_width"=>"123", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-03 20:55:33', 'image/png', 'Screen_Shot_2014-02-03_at_2.45.41_PM.png', 14152, '2014-02-03 20:55:33', NULL, 123, '7Qm_TJqh', '2014-02-03 20:55:33')
+[paperclip] Saving attachments.
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/7Qm_TJqh
+Completed 302 Found in 40ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/uploads/7Qm_TJqh" for 127.0.0.1 at 2014-02-03 15:55:33 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"7Qm_TJqh"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = '7Qm_TJqh' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_2.45.41_PM20140203-97070-pfu9re.png[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_2.45.41_PM20140203-97070-pfu9re.png[0]' -resize "123" -strip -colorspace RGB '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_2.45.41_PM20140203-97070-pfu9re20140203-97070-j3j189'
+  Rendered uploads/show.html.erb within layouts/application (218.2ms)
+Completed 200 OK in 229ms (Views: 221.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:55:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:55:35 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:55:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:56:37 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:56:37 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:37 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:56:37 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 15:56:42 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fbd70497c00 @original_filename="Screen Shot 2014-02-03 at 2.45.41 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2014-02-03 at 2.45.41 PM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-97070-18zfin6>>, "max_width"=>"123", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-03 20:56:42', 'image/png', 'Screen_Shot_2014-02-03_at_2.45.41_PM.png', 14152, '2014-02-03 20:56:42', NULL, 123, 'JhFM9VcY', '2014-02-03 20:56:42')
+[paperclip] Saving attachments.
+  [1m[36m (22.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/JhFM9VcY
+Completed 302 Found in 34ms (ActiveRecord: 23.3ms)
+
+
+Started GET "/uploads/JhFM9VcY" for 127.0.0.1 at 2014-02-03 15:56:42 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"JhFM9VcY"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'JhFM9VcY' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_2.45.41_PM20140203-97070-1paqi27.png[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_2.45.41_PM20140203-97070-1paqi27.png[0]' -resize "123" -strip -colorspace RGB '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_2.45.41_PM20140203-97070-1paqi2720140203-97070-14r26jf'
+  Rendered uploads/show.html.erb within layouts/application (58.3ms)
+Completed 200 OK in 63ms (Views: 61.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:56:42 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:42 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:42 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:56:43 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:56:43 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:43 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:56:43 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:43 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:56:58 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.6ms)
+Compiled app.js  (0ms)  (pid 97070)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:59 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:56:59 -0500
+Served asset /load.gif - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:56:59 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:56:59 -0500
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 15:59:09 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 97070)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 15:59:09 -0500
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 15:59:09 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 15:59:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 15:59:09 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 16:01:01 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (21ms)  (pid 97070)
+Compiled app.js  (0ms)  (pid 97070)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 16:01:01 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 16:01:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 16:01:01 -0500
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 16:01:01 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 16:01:07 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fbd6e335a30 @original_filename="Screen Shot 2014-02-03 at 12.15.18 PM (2).png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2014-02-03 at 12.15.18 PM (2).png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-97070-1knn8nw>>, "max_width"=>"123", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-03 21:01:07', 'image/png', 'Screen_Shot_2014-02-03_at_12.15.18_PM_(2).png', 489313, '2014-02-03 21:01:07', NULL, 123, 'MtWjW_lk', '2014-02-03 21:01:07')
+[paperclip] Saving attachments.
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/MtWjW_lk
+Completed 302 Found in 31ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/uploads/MtWjW_lk" for 127.0.0.1 at 2014-02-03 16:01:07 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"MtWjW_lk"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'MtWjW_lk' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_12.15.18_PM_(2)20140203-97070-14z54tx.png[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_12.15.18_PM_(2)20140203-97070-14z54tx.png[0]' -resize "123" -strip -colorspace RGB '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-03_at_12.15.18_PM_(2)20140203-97070-14z54tx20140203-97070-1aktnsx'
+  Rendered uploads/show.html.erb within layouts/application (170.1ms)
+Completed 200 OK in 175ms (Views: 173.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 16:01:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 16:01:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 16:01:08 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 16:01:09 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 16:01:09 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 16:01:09 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 16:01:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 16:01:09 -0500
+Served asset /app.js - 304 Not Modified (0ms)

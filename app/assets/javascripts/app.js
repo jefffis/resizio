@@ -175,12 +175,6 @@ $(function(){
 	});
 
 	form.on('submit',function(){
-		//var $this = $(this);
-		/*var url = $this.attr('action')'';
-		var id = $this.attr('class');
-		var full_url = url + '/' + id;
-		//alert(full_url);
-		//form.load(full_url + ' #result');*/
 
 		if(upload_image.val()==''){
 			error.fadeIn();
