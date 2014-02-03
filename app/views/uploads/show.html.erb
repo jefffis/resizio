@@ -14,19 +14,19 @@ time_diff_text = time_dif[1]
 <%#= time_diff_text %>
 
 <% if time_diff_nums > 30 && time_diff_text == 'minutes' %>
-<div id="result">
+<div id="result" class="erroneous">
 	<h1>D&rsquo;oh; we deleted that photo!</h1>
 	<p>In order to save precious bytes for other peeps, <strong>we had to derezz that file.</strong></p>
 	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
 </div>
 <% elsif time_diff_text == 'days' || time_diff_text == 'hours'  || time_diff_text == 'hour' %>
-<div id="result">
+<div id="result" class="erroneous">
 	<h1>D&rsquo;oh; we deleted that photo!</h1>
 	<p>In order to save precious bytes for other peeps, <strong>we had to derezz that file.</strong></p>
 	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
 </div>
 <% else %>
-<div id="result">
+<div id="result" class="erroneous not">
 	<figure>
 		<%= image_tag @upload.dynamic_attachment_url("#{max_width}x#{max_height}") %>
 		<figcaption>
@@ -46,7 +46,7 @@ time_diff_text = time_dif[1]
 	<p>If this looks good, go head and use it. If you need to save it, just <code>right click</code> and choose <code>Save Image As&hellip;</code>. <strong>Note: this image will not be saved,</strong> so please download it now, or forever hold your peace.</p>
 	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
 </div>
-<script>
+<!--<script>
 $(function(){
 	var img = $(img);
 	var height = $('#height');
@@ -56,5 +56,5 @@ $(function(){
 	height.text(img_height);
 	width.text(img_width);
 });
-</script>
+</script>-->
 <% end %>
