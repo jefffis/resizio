@@ -30,15 +30,17 @@ time_diff_text = time_dif[1]
 	<figure>
 		<%= image_tag @upload.dynamic_attachment_url("#{max_width}x#{max_height}") %>
 		<figcaption>
+			<span>
 			<% if @upload.max_width && @upload.max_height %>
-			<span id="width"></span> pixels wide by <span id="height"></span> pixels tall
+			<%= @upload.max_width %> pixels wide by <%= @upload.max_height %> pixels tall
 			<% elsif @upload.max_height %>
 			Max height: <%= @upload.max_height %> pixels tall
 			<% else %>
 			Max width: <%= @upload.max_width %> pixels wide
 			<% end %>
+			</span>
 			<br>
-			Original file size: <%= @upload.bytesToKb(@upload.image_file_size) %>kb, <strong>new file size: <%= @upload.resize_image(@upload.image.path("#{max_width}x#{max_height}")) %>kb</strong>
+			Original file size: <%= @upload.bytesToKb(@upload.image_file_size) %>kb, new file size: <%= @upload.resize_image(@upload.image.path("#{max_width}x#{max_height}")) %>kb
 		</figcaption>
 	</figure>
 	<p>If this looks good, go head and use it. If you need to save it, just <code>right click</code> and choose <code>Save Image As&hellip;</code>. <strong>Note: this image will not be saved,</strong> so please download it now, or forever hold your peace.</p>
