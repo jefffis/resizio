@@ -9,9 +9,6 @@
 	<title>resiz.io</title>
 	<%= stylesheet_link_tag "application", :media => "all" %>
 	<!--[if lt IE 9]><link href='/assets/ie.css' rel='stylesheet' type='text/css' /><![endif]-->
-	
-	<link href="//get.pictos.cc/fonts/397/14" rel="stylesheet" type="text/css" />
-	<%= javascript_include_tag "jquery", "app" %>
 	<%= csrf_meta_tags %>
 	<%
 	url = request.url.split(':')
@@ -52,5 +49,6 @@
 			</div>
 		</div>
 	</section>
+	<%= javascript_include_tag "jquery", "app" %>
 </body>
 </html>

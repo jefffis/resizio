@@ -74,6 +74,9 @@ $(function(){
 
 	meta.on('click',function(){
 		aboutsss.addClass('show');
+		$('html,body').animate({
+			scrollTop: 0
+		}, 150);
 		return false;
 	});
 	aboutsss_close.on('click',function(){
