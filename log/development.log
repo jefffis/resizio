@@ -41104,3 +41104,81 @@ Served asset /app.js - 304 Not Modified (1ms)
 
 Started GET "/assets/load.gif" for 127.0.0.1 at 2013-05-24 12:15:41 -0400
 Served asset /load.gif - 304 Not Modified (51ms)
+Connecting to database specified by database.yml
+  [1m[36m (213.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (215.9ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (1.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUploads (20121130203846)
+  [1m[35m (155.7ms)[0m  CREATE TABLE `uploads` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `image_file_name` varchar(255), `image_content_type` varchar(255), `image_file_size` int(11), `image_updated_at` datetime, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121130203846')[0m
+Migrating to AddImageDimension (20121203130518)
+  [1m[35m (168.2ms)[0m  ALTER TABLE `uploads` ADD `max_width` int(11)
+  [1m[36m (176.8ms)[0m  [1mALTER TABLE `uploads` ADD `max_height` int(11)[0m
+  [1m[35m (0.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20121203130518')
+Migrating to AddUniqueId (20130517123935)
+  [1m[36m (152.8ms)[0m  [1mALTER TABLE `uploads` ADD `unique_id` varchar(255)[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130517123935')
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 12:30:06 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (5.2ms)
+Compiled application.css  (0ms)  (pid 67882)
+Compiled jquery.js  (2ms)  (pid 67882)
+Compiled app.js  (0ms)  (pid 67882)
+Completed 200 OK in 140ms (Views: 90.7ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 12:30:06 -0500
+Served asset /app.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 12:30:06 -0500
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 12:30:06 -0500
+Served asset /load.gif - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 12:30:06 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 12:30:17 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc47966f220 @original_filename="image (5).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"image (5).jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-67882-3oxni0>>, "max_width"=>"400", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.3ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-03 17:30:17', 'image/jpeg', 'image_(5).jpg', 2060092, '2014-02-03 17:30:17', NULL, 400, 'S79oLYVu', '2014-02-03 17:30:17')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/S79oLYVu
+Completed 302 Found in 33ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/uploads/S79oLYVu" for 127.0.0.1 at 2014-02-03 12:30:17 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"S79oLYVu"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'S79oLYVu' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-67882-16l9gx9.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-67882-16l9gx9.jpg[0]' -resize "400" -strip -colorspace RGB '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-67882-16l9gx920140203-67882-1tup536'
+  Rendered uploads/show.html.erb within layouts/application (1471.2ms)
+Completed 200 OK in 1482ms (Views: 1474.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 12:30:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 12:30:23 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 12:30:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
