@@ -32,6 +32,7 @@ group :production do
   # gems specifically for Heroku go here
   gem "pg"
   gem 'aws-sdk'
+  gem 'aws-s3', '~> 0.6.3'
 end
 
 # To use ActiveModel has_secure_password
