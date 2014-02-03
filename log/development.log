@@ -41929,3 +41929,266 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:10:49 -0500
 Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 13:34:20 -0500
+Connecting to database specified by database.yml
+
+SyntaxError (/Users/Bingles/Desktop/Work/Projects/github/resizio/app/models/upload.rb:26: syntax error, unexpected tASSOC, expecting keyword_end
+  :storage => :s3,
+             ^):
+  app/controllers/uploads_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 13:34:40 -0500
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (uninitialized constant Upload::S3_CREDENTIALS):
+  app/models/upload.rb:27:in `<class:Upload>'
+  app/models/upload.rb:8:in `<top (required)>'
+  app/controllers/uploads_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 13:35:18 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 209ms (Views: 121.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:35:19 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 13:35:19 -0500
+Served asset /load.gif - 304 Not Modified (74ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:35:19 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:35:19 -0500
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 13:35:27 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f95de3de2f0 @original_filename="image (5).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"image (5).jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-89695-126fndg>>, "max_width"=>"100", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+Completed 500 Internal Server Error in 70ms
+
+NameError (uninitialized constant AWS::Core::ClientLogging):
+  app/controllers/uploads_controller.rb:14:in `new'
+  app/controllers/uploads_controller.rb:14:in `create'
+
+
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 13:36:00 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fde9fa048a0 @original_filename="image (5).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"image (5).jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-92507-1qu1he4>>, "max_width"=>"100", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-03 18:36:00', 'image/jpeg', 'image_(5).jpg', 2060092, '2014-02-03 18:36:00', NULL, 100, 'FFH6Lzg0', '2014-02-03 18:36:00')
+[paperclip] Saving attachments.
+  [1m[36m (6.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/FFH6Lzg0
+Completed 302 Found in 80ms (ActiveRecord: 11.7ms)
+
+
+Started GET "/uploads/FFH6Lzg0" for 127.0.0.1 at 2014-02-03 13:36:00 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"FFH6Lzg0"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'FFH6Lzg0' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-92507-1t0c48i.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-92507-1t0c48i.jpg[0]' -resize "100" -strip -colorspace RGB '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-92507-1t0c48i20140203-92507-hw8wut'
+  Rendered uploads/show.html.erb within layouts/application (1374.4ms)
+Completed 200 OK in 1520ms (Views: 1455.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:36:02 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:36:02 -0500
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:36:02 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 13:39:22 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:39:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:39:22 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:39:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 13:39:22 -0500
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-03 13:39:28 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"b5QEFttFDHXB4PIXZJIIvswOH9xsBaTDXgmZAzKBOIQ=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fde9f924688 @original_filename="image (5).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"image (5).jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140203-92507-eszs0i>>, "max_width"=>"100", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-03 18:39:28', 'image/jpeg', 'image_(5).jpg', 2060092, '2014-02-03 18:39:28', NULL, 100, 'v4K1xkrh', '2014-02-03 18:39:28')[0m
+[paperclip] Saving attachments.
+  [1m[35m (6.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/v4K1xkrh
+Completed 302 Found in 42ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/uploads/v4K1xkrh" for 127.0.0.1 at 2014-02-03 13:39:28 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"v4K1xkrh"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'v4K1xkrh' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-92507-1ev64tn.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-92507-1ev64tn.jpg[0]' -resize "100" -strip -colorspace RGB '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image_(5)20140203-92507-1ev64tn20140203-92507-k0a3zk'
+  Rendered uploads/show.html.erb within layouts/application (603.7ms)
+Completed 200 OK in 609ms (Views: 607.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:39:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:39:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:39:29 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/v4K1xkrh" for 127.0.0.1 at 2014-02-03 13:40:04 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"v4K1xkrh"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'v4K1xkrh' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:40:04 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:40:04 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:40:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/v4K1xkrh" for 127.0.0.1 at 2014-02-03 13:40:13 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"v4K1xkrh"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'v4K1xkrh' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:40:13 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:40:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:40:13 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/v4K1xkrh" for 127.0.0.1 at 2014-02-03 13:41:49 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"v4K1xkrh"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'v4K1xkrh' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (5.1ms)
+Compiled application.css  (1ms)  (pid 92507)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:41:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:41:49 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:41:49 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 13:41:53 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:41:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:41:54 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:41:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 13:41:54 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-03 13:42:04 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 92507)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-03 13:42:04 -0500
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-03 13:42:04 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-03 13:42:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-03 13:42:04 -0500
+Served asset /app.js - 304 Not Modified (0ms)

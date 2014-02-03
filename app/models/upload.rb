@@ -20,7 +20,11 @@ class Upload < ActiveRecord::Base
   attr_accessible :image, :max_width, :max_height, :unique_id
   validates_attachment_presence :image
   
-  has_attached_file :image, :styles => Proc.new { |image| image.instance.styles }, :convert_options => { :all => '-strip -colorspace RGB'}
+  has_attached_file :image,
+  :styles => Proc.new { |image| image.instance.styles },
+  :convert_options => { :all => '-strip -colorspace RGB'}
+  #:storage => :s3
+  #:s3_credentials => S3_CREDENTIALS
   #validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif', 'image/pjpeg', 'image/x-png', 'image/jpeg2000', 'image/tiff']
   validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif', 'image/tiff']
 

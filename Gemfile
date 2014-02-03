@@ -9,8 +9,6 @@ gem 'rails', '3.2.8'
 gem 'mysql2'
 gem 'paperclip'
 gem 'dynamic_form'
-gem 'aws-sdk'
-gem 'aws-s3', '~> 0.6.3'
 
 # Gems used only for assets and not required
 # in production environments by default.

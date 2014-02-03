@@ -467,9 +467,6 @@ iOS 5/6 support
 	}
 	}
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
-	html {
-		letter-spacing:-.06em;
-	}
 	.load {
 		margin-top:2em;
 	}
