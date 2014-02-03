@@ -37,10 +37,11 @@ time_diff_text = time_dif[1]
 			<% else %>
 			Max width: <%= @upload.max_width %> pixels wide
 			<% end %>
+			<br>
+			Original file size: <%= @upload.bytesToKb(@upload.image_file_size) %>kb, <strong>new file size: <%= @upload.resize_image(@upload.image.path("#{max_width}x#{max_height}")) %>kb</strong>
 		</figcaption>
 	</figure>
-	<p>Original file size: <%= @upload.bytesToKb(@upload.image_file_size) %>kb, <strong>new file size: <%= @upload.resize_image(@upload.image.path("#{max_width}x#{max_height}")) %>kb</strong></p>
-	<p>If this looks good, go head and use it. If you need to save it, just <code>right click</code> and choose <code>Save Image As&hellip;</code>. <strong>Note: this image will not be saved, so please download it now, or forever hold your peace.</strong></p>
+	<p>If this looks good, go head and use it. If you need to save it, just <code>right click</code> and choose <code>Save Image As&hellip;</code>. <strong>Note: this image will not be saved,</strong> so please download it now, or forever hold your peace.</p>
 	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
 </div>
 <script>
