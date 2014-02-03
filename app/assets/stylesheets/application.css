@@ -372,6 +372,12 @@ code {
 .wrap {
 	margin:1em 0 0;
 }
+small {
+	display: block;
+	padding-top: 1.5em;
+	letter-spacing: normal;
+	color: rgba(255,255,255,0.5);
+}
 .wrap.link {
 	width:300px;
 	margin-left: auto;

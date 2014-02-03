@@ -26,7 +26,7 @@ time_diff_text = time_dif[1]
 	<div class="wrap link"><%= link_to "Resize another?", "/" %></div>
 </div>
 <% else %>
-<div id="result" class="erroneous not">
+<div id="result" class="erroneous <% if @upload.max_width.to_i > 300 || @upload.max_height.to_i > 500 %>not<% end %>">
 	<figure>
 		<%= image_tag @upload.dynamic_attachment_url("#{max_width}x#{max_height}") %>
 		<figcaption>

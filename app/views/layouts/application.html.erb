@@ -6,7 +6,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>resiz.io</title>
+	<title>
+		<% if @upload.max_height || @upload.max_width %>
+		Download your resized &amp; optimized image
+		<% else %>
+		Easily resize &amp; optimize any image
+		<% end %>
+		 | img rszr</title>
 	<%= stylesheet_link_tag "application", :media => "all" %>
 	<!--[if lt IE 9]><link href='/assets/ie.css' rel='stylesheet' type='text/css' /><![endif]-->
 	<%= csrf_meta_tags %>
@@ -33,7 +39,7 @@
 	<section>
 		<h1>
 			<!--<span class="ion-images"></span>-->
-			img<em>rsizr</em>
+			img<em>rszr</em>
 		</h1>
 		<%= yield %>
 		<a href="" class="meta" id="meta">about</a>

@@ -7,6 +7,7 @@ $(function(){
 	var wrap = $('#submit-wrap');
 	var submit = $('input[type=submit]');
 	var load = $('#load');
+	var details = $('#details');
 	var upload_image = $('#upload_image');
 	var span = upload_image.parent().find('span strong');
 	
@@ -124,6 +125,7 @@ $(function(){
 
 		//div.fadeIn().html('<em aria-hidden="true" data-icon="c"></em> ' + path);
 		span.text('That be an img, well done!');
+		details.hide();
 		error.fadeOut();
 		error_sub.fadeOut();
 		error_file.fadeOut();

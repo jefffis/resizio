@@ -18,12 +18,12 @@
 		</div>
 		<label for="upload_image" id="upload_image_choose" class="upload_image_choose">
 			<span class="submit">
-				<strong>Choose an image to upload</strong>
+				<strong>Choose an image to resize</strong>
 			</span>
 			<%= u.file_field :image, :accept => 'image/*' %>
-			<%#= u.file_field :image %>
 			<div id="path" class="path"></div>
 		</label>
+		<small id="details">Easily resize &amp; optimize any image</small>
 	<% end %>
 	<div id="error-vals" class="error">
 		<span aria-hidden="true" data-icon="e"></span>
