@@ -382,7 +382,7 @@ a:link, a:visited, input[type=submit], .upload_image_choose span strong, .load {
 	outline:none;
 	font-weight:bold;
 }
-input[type=submit] {
+input[type=submit], input[type=submit]:active {
 	background:#404040;
 	color: rgba(255,255,255,0.6);
 }
@@ -406,7 +406,7 @@ a:hover, input[type=submit]:hover, .upload_image_choose span strong:hover {
 .upload_image_choose span:active {
 	background: rgba(0,0,0,0.35);
 }
-a:active, input[type=submit]:active, .upload_image_choose span strong:active {
+a:active, input[type=submit].ok:active, .upload_image_choose span strong:active {
 	background:#307CA3;
 	/*background:-webkit-gradient(linear, 0 0, 0 bottom, from(#307CA3), to(#3fa6d3));
 	background:-webkit-linear-gradient(#307CA3, #3fa6d3);
@@ -469,9 +469,8 @@ input[type=text] {
 .numnums {
 	display:none;
 }
-input[type=text]:focus, input[type=submit]:focus {
-	/*border-color:#040407;
-	box-shadow:0 1px 4px #92d7da, 0 1px 7px #92d7da, 0 1px 8px #d7f4f5, 0 1px 16px #d7f4f5;*/
+input[type=text]:focus {
+	box-shadow: 0 0 0 5px rgba(255,255,0,0.35);
 }
 input:hover, input.ok {
 	opacity:1;
@@ -685,6 +684,11 @@ iOS 5/6 support
 		width:100%;
 		margin:0 auto 1em;
 	}
+	h1 {
+		margin-bottom: 0;
+		position: relative;
+		left: -23px;
+	}
 	hr {
 		width:100%;
 	}
@@ -693,6 +697,7 @@ iOS 5/6 support
 	}
 	a.meta {
 		position:static;
+		margin-top: 2em;
 	}
 	}
 	@media screen and (-webkit-min-device-pixel-ratio:0) {

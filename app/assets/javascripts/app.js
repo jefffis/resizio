@@ -123,7 +123,7 @@ $(function(){
 		}
 
 		//div.fadeIn().html('<em aria-hidden="true" data-icon="c"></em> ' + path);
-		span.text('Well done!');
+		span.text('That be an img, well done!');
 		error.fadeOut();
 		error_sub.fadeOut();
 		error_file.fadeOut();
