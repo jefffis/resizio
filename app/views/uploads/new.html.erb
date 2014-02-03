@@ -17,7 +17,7 @@
 			Please load a valid image: JPG, JPEG, PNG, TIFF or GIF.
 		</div>
 		<label for="upload_image" id="upload_image_choose" class="upload_image_choose">
-			<span>
+			<span class="submit">
 				<strong>Choose an image to upload</strong>
 			</span>
 			<%= u.file_field :image, :accept => 'image/*' %>
@@ -38,7 +38,7 @@
 		<div class="wrap input"><%= u.text_field :max_height, :class => 'nums' %></div>
 	</fieldset>
 	<fieldset class="numnums">
-		<div class="wrap" id="submit-wrap"><%= u.submit 'Groovy. Now resize me!' %></div>
+		<div class="wrap submit" id="submit-wrap"><%= u.submit 'Groovy. Now resize me!', :class => 'disabled' %></div>
 		<div class="load" id="load">
 			<img src="/assets/load.gif" />
 		</div>

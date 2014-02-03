@@ -122,8 +122,8 @@ $(function(){
 			upload_image.hide();
 		}
 
-		div.fadeIn().html('<em aria-hidden="true" data-icon="c"></em> ' + path);
-		span.text('Shweet, that be a file.');
+		//div.fadeIn().html('<em aria-hidden="true" data-icon="c"></em> ' + path);
+		span.text('Well done!');
 		error.fadeOut();
 		error_sub.fadeOut();
 		error_file.fadeOut();
