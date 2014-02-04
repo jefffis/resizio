@@ -50831,3 +50831,335 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 10:23:10 -0500
 Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-04 11:45:16 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 157ms (Views: 85.3ms | ActiveRecord: 22.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:45:17 -0500
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-04 11:45:17 -0500
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:45:17 -0500
+Served asset /jquery.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:45:17 -0500
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-04 11:45:34 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEV2NnKw0XMgKB0pm5ShUekZMwkFuXsdLgwaz51nMY8=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007fc7fc7a25f8 @original_filename="Screen Shot 2014-02-04 at 10.09.19 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2014-02-04 at 10.09.19 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140204-1418-9zmw9l>>, "max_width"=>"150", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (2.1ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-04 16:45:34', 'image/png', 'Screen_Shot_2014-02-04_at_10.09.19_AM.png', 8952, '2014-02-04 16:45:34', NULL, 150, 'LDDKP4K8', '2014-02-04 16:45:34')[0m
+[paperclip] Saving attachments.
+  [1m[35m (21.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/LDDKP4K8
+Completed 302 Found in 154ms (ActiveRecord: 23.5ms)
+
+
+Started GET "/uploads/LDDKP4K8" for 127.0.0.1 at 2014-02-04 11:45:34 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"LDDKP4K8"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'LDDKP4K8' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.09.19_AM20140204-1418-1diecxr.png[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.09.19_AM20140204-1418-1diecxr.png[0]' -resize "150" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.09.19_AM20140204-1418-1diecxr20140204-1418-y8on03'
+  Rendered uploads/show.html.erb within layouts/application (1004.6ms)
+Completed 200 OK in 1032ms (Views: 1023.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:45:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:45:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:45:35 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-04 11:46:51 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 76ms (Views: 41.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:46:51 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:46:51 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-04 11:46:51 -0500
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:46:51 -0500
+Served asset /app.js - 304 Not Modified (2ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-04 11:47:01 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEV2NnKw0XMgKB0pm5ShUekZMwkFuXsdLgwaz51nMY8=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f92b094c920 @original_filename="Screen Shot 2014-02-04 at 10.04.32 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"Screen Shot 2014-02-04 at 10.04.32 AM.png\"\r\nContent-Type: image/png\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140204-1437-656us3>>, "max_width"=>"100", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-04 16:47:01', 'image/png', 'Screen_Shot_2014-02-04_at_10.04.32_AM.png', 12776, '2014-02-04 16:47:01', NULL, 100, 'eqUTzOPR', '2014-02-04 16:47:01')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/eqUTzOPR
+Completed 302 Found in 18ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/uploads/eqUTzOPR" for 127.0.0.1 at 2014-02-04 11:47:01 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"eqUTzOPR"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'eqUTzOPR' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-86jlum.png[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-86jlum.png[0]' -resize "100" -strip -colorspace RGB -interlace Plane -quality 60 JPG '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-86jlum20140204-1437-oikut9'
+[paperclip] An error was received while processing: #<Paperclip::Error: There was an error processing the thumbnail for Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-86jlum>
+  Rendered uploads/show.html.erb within layouts/application (100.2ms)
+Completed 500 Internal Server Error in 110ms
+
+ActionView::Template::Error (No such file or directory - /Users/Bingles/Desktop/Work/Projects/github/resizio/public/system/uploads/images/000/000/028/100x/Screen_Shot_2014-02-04_at_10.04.32_AM.png):
+    40: 			<% end %>
+    41: 			</span>
+    42: 			<br>
+    43: 			Original file size: <%= @upload.bytesToKb(@upload.image_file_size) %>kb, new file size: <%= @upload.resize_image(@upload.image.path("#{max_width}x#{max_height}")) %>kb
+    44: 		</figcaption>
+    45: 	</figure>
+    46: 	<p>If this looks good, go head and use it. If you need to save it, just <code>right click</code> and choose <code>Save Image As&hellip;</code>. <strong>Note: this image will not be saved,</strong> so please download it now, or forever hold your peace.</p>
+  app/models/upload.rb:51:in `initialize'
+  app/models/upload.rb:51:in `open'
+  app/models/upload.rb:51:in `resize_image'
+  app/views/uploads/show.html.erb:43:in `_app_views_uploads_show_html_erb__980319811055289319_70133977293460'
+
+
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/Bingles/.rvm/gems/ruby-1.9.3-p448@resizio/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/uploads/eqUTzOPR" for 127.0.0.1 at 2014-02-04 11:47:12 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"eqUTzOPR"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'eqUTzOPR' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-1vc9xpg.png[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-1vc9xpg.png[0]' -resize "100" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/Screen_Shot_2014-02-04_at_10.04.32_AM20140204-1437-1vc9xpg20140204-1437-1xu2pdi'
+  Rendered uploads/show.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 71ms (Views: 54.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:47:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:47:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:47:12 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-04 11:47:25 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:47:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:47:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:47:25 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-04 11:47:25 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-04 11:47:31 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEV2NnKw0XMgKB0pm5ShUekZMwkFuXsdLgwaz51nMY8=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f92b0992ab0 @original_filename="turfbg.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"turfbg.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140204-1437-bo6zcv>>, "max_width"=>"1000", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-04 16:47:31', 'image/jpeg', 'turfbg.jpg', 2644087, '2014-02-04 16:47:31', NULL, 1000, 'Eo7-fMOa', '2014-02-04 16:47:31')[0m
+[paperclip] Saving attachments.
+  [1m[35m (89.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/Eo7-fMOa
+Completed 302 Found in 115ms (ActiveRecord: 90.2ms)
+
+
+Started GET "/uploads/Eo7-fMOa" for 127.0.0.1 at 2014-02-04 11:47:31 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"Eo7-fMOa"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'Eo7-fMOa' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1437-18a6pv5.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1437-18a6pv5.jpg[0]' -resize "1000" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1437-18a6pv520140204-1437-1qbm9ah'
+  Rendered uploads/show.html.erb within layouts/application (830.0ms)
+Completed 200 OK in 835ms (Views: 833.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:47:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:47:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:47:32 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/Eo7-fMOa" for 127.0.0.1 at 2014-02-04 11:56:36 -0500
+Connecting to database specified by database.yml
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"Eo7-fMOa"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'Eo7-fMOa' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 108ms (Views: 50.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:56:37 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:56:37 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:56:37 -0500
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-04 11:56:44 -0500
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 11:56:44 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 11:56:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 11:56:44 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-04 11:56:44 -0500
+Served asset /load.gif - 304 Not Modified (1ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-04 13:22:40 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEV2NnKw0XMgKB0pm5ShUekZMwkFuXsdLgwaz51nMY8=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f8fcbcccbc8 @original_filename="turfbg.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"turfbg.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140204-1532-1hcxv9b>>, "max_width"=>"575", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-04 18:22:40', 'image/jpeg', 'turfbg.jpg', 2644087, '2014-02-04 18:22:40', NULL, 575, 'yfykEXXp', '2014-02-04 18:22:40')
+[paperclip] Saving attachments.
+  [1m[36m (56.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/yfykEXXp
+Completed 302 Found in 81ms (ActiveRecord: 58.5ms)
+
+
+Started GET "/uploads/yfykEXXp" for 127.0.0.1 at 2014-02-04 13:22:40 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"yfykEXXp"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'yfykEXXp' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1532-17eh059.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1532-17eh059.jpg[0]' -resize "575" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1532-17eh05920140204-1532-s97yra'
+  Rendered uploads/show.html.erb within layouts/application (532.1ms)
+Completed 200 OK in 537ms (Views: 535.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 13:22:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 13:22:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 13:22:41 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-02-04 13:23:31 -0500
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 5.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 13:23:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 13:23:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 13:23:31 -0500
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/load.gif" for 127.0.0.1 at 2014-02-04 13:23:31 -0500
+Served asset /load.gif - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-02-04 13:23:38 -0500
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PEV2NnKw0XMgKB0pm5ShUekZMwkFuXsdLgwaz51nMY8=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f8fcb8f26d8 @original_filename="turfbg.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"turfbg.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140204-1532-8oanfz>>, "max_width"=>"575", "max_height"=>""}, "commit"=>"Groovy. Now resize me!"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-02-04 18:23:38', 'image/jpeg', 'turfbg.jpg', 2644087, '2014-02-04 18:23:38', NULL, 575, '2a1oC3UX', '2014-02-04 18:23:38')[0m
+[paperclip] Saving attachments.
+  [1m[35m (56.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/2a1oC3UX
+Completed 302 Found in 77ms (ActiveRecord: 56.5ms)
+
+
+Started GET "/uploads/2a1oC3UX" for 127.0.0.1 at 2014-02-04 13:23:38 -0500
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"2a1oC3UX"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = '2a1oC3UX' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1532-pynvvo.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1532-pynvvo.jpg[0]' -resize "575" -strip -colorspace RGB -interlace Plane -quality 20 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/turfbg20140204-1532-pynvvo20140204-1532-vbi9wv'
+  Rendered uploads/show.html.erb within layouts/application (489.9ms)
+Completed 200 OK in 495ms (Views: 493.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-02-04 13:23:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-02-04 13:23:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-04 13:23:38 -0500
+Served asset /app.js - 304 Not Modified (0ms)

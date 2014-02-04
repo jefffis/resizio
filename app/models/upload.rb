@@ -22,7 +22,7 @@ class Upload < ActiveRecord::Base
   
   has_attached_file :image,
   :styles => Proc.new { |image| image.instance.styles },
-  :convert_options => { :all => '-strip -colorspace RGB'}
+  :convert_options => { :all => '-strip -colorspace RGB -interlace Plane -quality 60'}
   #:storage => :s3
   #:s3_credentials => S3_CREDENTIALS
   #validates_attachment_content_type :image, :content_type => ['image/jpeg', 'image/png', 'image/gif', 'image/pjpeg', 'image/x-png', 'image/jpeg2000', 'image/tiff']
