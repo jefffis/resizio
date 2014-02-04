@@ -747,8 +747,11 @@ iOS 5/6 support
 }
 
 @media screen and (max-width:600px) {
-	h1, h2, h3, h4, p, a, fieldset, .error, .wrap.link {
+	h1, h2, h3, h4, p, a, fieldset, .error {
 		width:100%;
+		margin:0 auto 1em;
+	}
+	.wrap.link {
 		margin:0 auto 1em;
 	}
 	h1 {
@@ -772,6 +775,11 @@ iOS 5/6 support
 	}
 	p {
 		padding:0;
+	}
+}
+@media screen and (max-width:360px) {
+	.wrap.link {
+		width: 100%;
 	}
 }
 @media screen and (min-height:30em) {
