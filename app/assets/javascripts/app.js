@@ -124,7 +124,7 @@ $(function(){
 		}
 
 		//div.fadeIn().html('<em aria-hidden="true" data-icon="c"></em> ' + path);
-		span.text('That be an img, well done!');
+		$('#texttt').text('That be an img, well done!');
 		details.hide();
 		error.fadeOut();
 		error_sub.fadeOut();

@@ -1,7 +1,7 @@
 <% ua = request.env['HTTP_USER_AGENT'].downcase %>
 <%#= ua %>
 <!DOCTYPE html>
-<html<% if ua.index('mobile') || ua.index('webos') %> class="m"<% end %>>
+<html<%# if ua.index('mobile') || ua.index('webos') %><%# end %>>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
@@ -21,6 +21,8 @@
 	if url[1] != '//localhost'
 	%>
 	<script type="text/javascript">
+
+	document.addEventListener("touchstart", function() {},false);
 
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-38631108-1']);

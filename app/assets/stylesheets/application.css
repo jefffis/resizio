@@ -123,6 +123,7 @@ figure + p strong {
 h1 {
 	font-weight:bold;
 	line-height:1.2;
+	padding-top: 20px;
 	text-shadow: rgb(42, 42, 42) 1px 1px,
     rgb(42, 42, 42) 2px 2px,
     rgb(42, 42, 42) 3px 3px,
@@ -323,7 +324,7 @@ h1 {
     rgb(42, 42, 42) 198px 198px,
     rgb(42, 42, 42) 199px 199px,
     rgb(42, 42, 42) 200px 200px;
-    height: 70px;
+    height: 90px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -383,7 +384,7 @@ small {
 	margin-left: auto;
 	margin-right: auto;
 }
-a:link, a:visited, input[type=submit], .upload_image_choose span strong, .load {
+a:link, a:visited, input[type=submit], .upload_image_choose span span, .load {
 	text-decoration:none;
 	box-shadow:#666 0px 2px 3px;
 	background:#3fa6d3;
@@ -419,7 +420,7 @@ input[type=submit].ok {
 	background:#3fa6d3;
 	color: white;
 }
-.upload_image_choose span strong, a:link, a:visited, input[type=submit] {
+.upload_image_choose span span, a:link, a:visited, input[type=submit] {
 	margin-top:0;
 	line-height: 1;
 	padding: 1em;
@@ -435,7 +436,7 @@ a:hover, input[type=submit]:hover, .upload_image_choose span strong:hover {
 .upload_image_choose span:active {
 	background: rgba(0,0,0,0.35);
 }
-a:active, input[type=submit].ok:active, .upload_image_choose span strong:active {
+a:active, input[type=submit].ok:active, .upload_image_choose span span:active {
 	background:#307CA3;
 	/*background:-webkit-gradient(linear, 0 0, 0 bottom, from(#307CA3), to(#3fa6d3));
 	background:-webkit-linear-gradient(#307CA3, #3fa6d3);
@@ -739,7 +740,6 @@ iOS 5/6 support
 	}
 	a.meta {
 		position:static;
-		margin-top: 2em;
 	}
 	}
 	@media screen and (-webkit-min-device-pixel-ratio:0) {
