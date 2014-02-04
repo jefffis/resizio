@@ -365,6 +365,20 @@ code {
 	box-shadow:0 -1px 0 rgba(255,255,255,0.5) inset;*/
 	box-shadow:0 0 2px rgba(0,0,0,0.15) inset, 0 1px 3px rgba(0,0,0,0.05) inset;
 }
+.link {
+	position: relative;
+}
+.text {
+	position: absolute;
+	top: 1.25em;
+	left: 1em;
+	text-align: left;
+	color: #999;
+}
+.text.height {
+	top: auto;
+	bottom: 1.35em;
+}
 .submit, input[type=text] {
 	max-width: 300px;
 	margin-left: auto;
@@ -475,7 +489,7 @@ input[type=text] {
 	border-radius: 0;
 	padding: 1em;
 	outline:none;
-	text-align:center;
+	text-align:right;
 	/*color:#666;*/
 	font-weight:bold;
 	width:100%;

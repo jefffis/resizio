@@ -32,8 +32,10 @@
 	<fieldset class="numnums">
 		<%= label_tag :upload_max_width, 'Choose a max width or height:' %>
 		<div class="wrap input link">
-			<%= u.text_field :max_width, :class => 'nums', :placeholder => 'Enter a max width' %>
-			<%= u.text_field :max_height, :class => 'nums', :placeholder => 'or a max height' %>
+			<%= u.text_field :max_width, :class => 'nums' %>
+			<%= u.text_field :max_height, :class => 'nums' %>
+			<span class="text width">Enter a max width</span>
+			<span class="text height">or a max height</span>
 		</div>
 	</fieldset>
 	<!--<fieldset class="numnums">
