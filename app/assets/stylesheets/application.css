@@ -786,14 +786,12 @@ iOS 5/6 support
 	}
 	/*a.meta, .aboutsss span {
 		display: none;
-	}
-	.aboutsss {
-		display: block;
-		position: static;
-		height: auto;
-		padding: 2em 0;
-		background: none;
 	}*/
+	.aboutsss {
+		background: #404040;
+		font-size: 80%;
+		padding: 2em 0;
+	}
 }
 @media screen and (min-height:30em) {
 	html {
