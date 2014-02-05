@@ -187,9 +187,9 @@ $(function(){
 			upload_max_width.focus();
 			return false;
 		}else{
-			submit.hide();
-			wrap.hide();
-			load.show();
+			submit.val('Hang tight, resizing that img.').addClass('subd');
+			//wrap.hide();
+			//load.show();
 		}
 	});
 

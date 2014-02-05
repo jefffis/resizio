@@ -434,6 +434,9 @@ input[type=submit].ok {
 	background:#3fa6d3;
 	color: white;
 }
+input[type=submit].subd {
+	color: rgba(255,255,255,0.5);
+}
 .upload_image_choose span span, a:link, a:visited, input[type=submit] {
 	margin-top:0;
 	line-height: 1;
@@ -781,6 +784,16 @@ iOS 5/6 support
 	.wrap.link {
 		width: 100%;
 	}
+	/*a.meta, .aboutsss span {
+		display: none;
+	}
+	.aboutsss {
+		display: block;
+		position: static;
+		height: auto;
+		padding: 2em 0;
+		background: none;
+	}*/
 }
 @media screen and (min-height:30em) {
 	html {
