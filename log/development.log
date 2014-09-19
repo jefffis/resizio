@@ -52178,3 +52178,1022 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-02-06 10:10:30 -0500
 Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-18 15:42:58 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 533ms (Views: 343.3ms | ActiveRecord: 120.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 15:42:59 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 15:42:59 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-18 15:42:59 -0400
+Served asset /app.js - 200 OK (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:31:43 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 1141ms (Views: 689.0ms | ActiveRecord: 249.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:31:48 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:31:48 -0400
+Served asset /app.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:31:48 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:32:17 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 134ms (Views: 132.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:32:18 -0400
+Served asset /logo.png - 200 OK (1338ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:32:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:32:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:32:20 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:32:32 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:32:38 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:33:36 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:33:36 -0400
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:33:36 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:33:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:33:36 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:34:05 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 279ms (Views: 277.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:34:06 -0400
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:34:06 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:06 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:34:25 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:34:26 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:26 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:34:26 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:34:40 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.7ms)
+Compiled application.css  (1ms)  (pid 6924)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:34:41 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:41 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:34:41 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:34:53 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:34:53 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:53 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:34:53 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:34:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:35:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:35:40 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:35:40 -0400
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:35:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:35:41 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:35:41 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:36:11 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:36:11 -0400
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:36:11 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:36:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:36:11 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:36:53 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:36:53 -0400
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:36:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:36:53 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:36:53 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:37:07 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 52ms (Views: 50.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:37:07 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:37:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:37:07 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:37:07 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:37:35 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:37:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:37:35 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:37:35 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:37:35 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-09-19 15:38:28 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9nnQZnmX91lNs4QGj9XsXH6KDuQKMnhPIw378l6UJPA=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f8d4c1c1138 @original_filename="roo&i2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"roo&i2.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140919-6924-16erqnr>>, "max_width"=>"200", "max_height"=>""}, "commit"=>"Hang tight, resizing that img."}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (108.4ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-09-19 19:38:28', 'image/jpeg', 'roo_i2.jpg', 1244108, '2014-09-19 19:38:28', NULL, 200, 'MBgXFUpa', '2014-09-19 19:38:28')
+[paperclip] Saving attachments.
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/MBgXFUpa
+Completed 302 Found in 430ms (ActiveRecord: 109.1ms)
+
+
+Started GET "/uploads/MBgXFUpa" for 127.0.0.1 at 2014-09-19 15:38:28 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"MBgXFUpa"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'MBgXFUpa' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/roo_i220140919-6924-10m6nko.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/roo_i220140919-6924-10m6nko.jpg[0]' -resize "200" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/roo_i220140919-6924-10m6nko20140919-6924-11m6vqi'
+  Rendered uploads/show.html.erb within layouts/application (4172.1ms)
+Completed 200 OK in 4709ms (Views: 4204.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:38:33 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:38:33 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:38:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:38:33 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:38:40 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/MBgXFUpa" for 127.0.0.1 at 2014-09-19 15:38:59 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"MBgXFUpa"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'MBgXFUpa' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (5.1ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 122ms (Views: 119.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:38:59 -0400
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:39:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:39:00 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:39:00 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:39:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/MBgXFUpa" for 127.0.0.1 at 2014-09-19 15:39:21 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"MBgXFUpa"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'MBgXFUpa' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (6.8ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:39:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:39:21 -0400
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:39:21 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:39:21 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:41:31 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:41:31 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:41:31 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:41:31 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:41:31 -0400
+Served asset /logo.png - 200 OK (144ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:42:47 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:42:47 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:42:47 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:42:47 -0400
+Served asset /logo.png - 200 OK (114ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:42:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:43:11 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:43:11 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:43:11 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:43:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:43:49 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:43:49 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:43:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:43:49 -0400
+Served asset /logo.png - 200 OK (74ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:43:49 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:44:18 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:44:19 -0400
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:44:19 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:44:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:44:19 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:44:31 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:45:02 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:45:02 -0400
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:45:02 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:45:02 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:45:02 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:45:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:46:07 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:46:07 -0400
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:46:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:46:07 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:46:07 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-09-19 15:46:17 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9nnQZnmX91lNs4QGj9XsXH6KDuQKMnhPIw378l6UJPA=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f8d4aae5d10 @original_filename="chairman-meow.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"chairman-meow.jpeg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140919-6924-4n9fr5>>, "max_width"=>"123", "max_height"=>""}, "commit"=>"Hang tight, resizing that img."}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-09-19 19:46:17', 'image/jpeg', 'chairman-meow.jpeg', 224477, '2014-09-19 19:46:17', NULL, 123, 'uH7QU9ZR', '2014-09-19 19:46:17')[0m
+[paperclip] Saving attachments.
+  [1m[35m (17.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/uploads/uH7QU9ZR
+Completed 302 Found in 45ms (ActiveRecord: 17.6ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:46:17 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1[0m
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/chairman-meow20140919-6924-12m6va6.jpeg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/chairman-meow20140919-6924-12m6va6.jpeg[0]' -resize "123" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/chairman-meow20140919-6924-12m6va620140919-6924-scuigh'
+  Rendered uploads/show.html.erb within layouts/application (1088.8ms)
+Completed 200 OK in 1117ms (Views: 1115.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:46:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:46:19 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:46:19 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:46:19 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:46:37 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (31.8ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 47ms (Views: 44.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:46:37 -0400
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:46:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:46:37 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:46:37 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:46:46 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:47:01 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[36mUpload Load (0.5ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (6.7ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:47:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:47:01 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:47:01 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:47:01 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:47:11 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (6.2ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:47:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:47:11 -0400
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:47:11 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:47:11 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:47:28 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:47:40 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 100ms (Views: 98.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:47:40 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:47:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:47:40 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:47:40 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:48:19 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:48:19 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:48:19 -0400
+Served asset /logo.png - 200 OK (15ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:48:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:48:19 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:48:36 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:48:37 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:48:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:48:37 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:48:37 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:48:53 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:48:53 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:48:53 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:48:53 -0400
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:48:53 -0400
+Served asset /logo.png - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:49:33 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.0ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:49:33 -0400
+Served asset /application.css - 200 OK (40ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:49:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:49:33 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:49:33 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:49:38 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:49:38 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:49:38 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:49:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:49:38 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:50:23 -0400
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (1.3ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:50:23 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:50:23 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:50:23 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:50:23 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:50:52 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.4ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:50:52 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:50:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:50:52 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:50:52 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/uploads" for 127.0.0.1 at 2014-09-19 15:51:04 -0400
+Processing by UploadsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MY1t8UCcnQ/HwR3ras96b/7rCCOKDhtn2Ibl9x9g4Mc=", "upload"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f8d4c2dc6a8 @original_filename="image.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload[image]\"; filename=\"image.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/RackMultipart20140919-6924-1kc7x50>>, "max_width"=>"400", "max_height"=>""}, "commit"=>"Hang tight, resizing that img."}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `uploads` (`created_at`, `image_content_type`, `image_file_name`, `image_file_size`, `image_updated_at`, `max_height`, `max_width`, `unique_id`, `updated_at`) VALUES ('2014-09-19 19:51:04', 'image/jpeg', 'image.jpg', 71086, '2014-09-19 19:51:04', NULL, 400, 'MfffN8bH', '2014-09-19 19:51:04')
+[paperclip] Saving attachments.
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/uploads/MfffN8bH
+Completed 302 Found in 53ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/uploads/MfffN8bH" for 127.0.0.1 at 2014-09-19 15:51:04 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"MfffN8bH"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'MfffN8bH' LIMIT 1
+[32mCommand[0m :: identify -format %wx%h '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image20140919-6924-vvg271.jpg[0]'
+[32mCommand[0m :: convert '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image20140919-6924-vvg271.jpg[0]' -resize "400" -strip -colorspace RGB -interlace Plane -quality 60 '/var/folders/wf/nztjy6cd2016kzn0zzll09k80000gn/T/image20140919-6924-vvg27120140919-6924-18o2446'
+  Rendered uploads/show.html.erb within layouts/application (595.9ms)
+Completed 200 OK in 601ms (Views: 599.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:51:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:05 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:51:05 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/MfffN8bH" for 127.0.0.1 at 2014-09-19 15:51:26 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"MfffN8bH"}
+  [1m[36mUpload Load (0.4ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'MfffN8bH' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (5.1ms)
+Compiled application.css  (0ms)  (pid 6924)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:51:26 -0400
+Served asset /application.css - 200 OK (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:26 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:51:26 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1
+  Rendered uploads/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/uploads/uH7QU9ZR" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Processing by UploadsController#show as HTML
+  Parameters: {"id"=>"uH7QU9ZR"}
+  [1m[36mUpload Load (0.3ms)[0m  [1mSELECT `uploads`.* FROM `uploads` WHERE `uploads`.`unique_id` = 'uH7QU9ZR' LIMIT 1[0m
+  Rendered uploads/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:37 -0400
+Served asset /app.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-19 15:51:40 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.3ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-19 15:51:40 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-09-19 15:51:40 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-09-19 15:51:40 -0400
+Served asset /app.js - 304 Not Modified (0ms)

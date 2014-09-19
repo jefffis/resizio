@@ -16,13 +16,15 @@
 	<%= stylesheet_link_tag "application", :media => "all" %>
 	<!--[if lt IE 9]><link href='/assets/ie.css' rel='stylesheet' type='text/css' /><![endif]-->
 	<%= csrf_meta_tags %>
+
+	<script type="text/javascript">
+
+	document.addEventListener("touchstart", function() {},false);
+
 	<%
 	url = request.url.split(':')
 	if url[1] != '//localhost'
 	%>
-	<script type="text/javascript">
-
-	document.addEventListener("touchstart", function() {},false);
 
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-38631108-1']);
@@ -33,18 +35,21 @@
 	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	})();
+	<% end %>
 
 	</script>
-	<% end %>
+
 </head>
 <body>
 	<section>
 		<h1>
-			<!--<span class="ion-images"></span>-->
-			img<em>rszr</em>
+			img<em>Rszr</em>
 		</h1>
 		<%= yield %>
-		<a href="" class="meta" id="meta">about</a>
+		<a href="" class="meta" id="meta">
+			<img src="/assets/logo.png" />
+			about
+		</a>
 		<div class="aboutsss" id="aboutsss">
 			<div>
 				<div>
