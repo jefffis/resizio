@@ -54199,3 +54199,54 @@ Served asset /logo.png - 304 Not Modified (0ms)
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-15 11:43:16 -0400
 Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-15 12:48:11 -0400
+Connecting to database specified by database.yml
+Processing by UploadsController#new as HTML
+  [1m[36mUpload Load (0.2ms)[0m  [1mSELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1[0m
+  Rendered uploads/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 391ms (Views: 227.2ms | ActiveRecord: 58.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-15 12:48:13 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-15 12:48:13 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-15 12:48:13 -0400
+Served asset /logo.png - 304 Not Modified (91ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-10-15 12:48:13 -0400
+Served asset /app.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-15 12:48:13 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-15 12:48:33 -0400
+Processing by UploadsController#new as HTML
+  [1m[35mUpload Load (0.2ms)[0m  SELECT `uploads`.* FROM `uploads` ORDER BY `uploads`.`id` DESC LIMIT 1
+  Rendered uploads/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-15 12:48:33 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-15 12:48:33 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/app.js?body=1" for 127.0.0.1 at 2014-10-15 12:48:33 -0400
+Served asset /app.js - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-15 12:48:33 -0400
+Served asset /logo.png - 200 OK (0ms)
